@@ -19,7 +19,7 @@ class AlipayClient extends  AopClient {
 	}
 
 	public function appPay($data,$notifyUrl){
-		$aop = new alipay\AlipayClient();
+		$aop = new $this();
 		$aop->signType = "RSA2";
 		$request = new alipay\request\AlipayTradeAppPayRequest();
 		$bizcontent=json_encode($data,JSON_UNESCAPED_UNICODE);
