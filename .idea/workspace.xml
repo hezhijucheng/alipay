@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94653ebe-fe3e-42b9-9a00-e9c56561ca34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlipayClient.php" afterPath="$PROJECT_DIR$/src/AlipayClient.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AlipayClient.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlipayClient.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AlipayClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="418">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlipayTradeAppPayRequest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlipayTradeAppPayRequest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/request/AlipayTradeAppPayRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-988">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="-209">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -207,10 +208,10 @@
     <property name="last_opened_file_path" value="D:/phpStudy/PHPTutorial/WWW/chat" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\qampp\htdocs\alipay\src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\qampp\htdocs\alipay\src" />
     </key>
   </component>
@@ -306,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567763282025</updated>
       <workItem from="1567763283282" duration="5698000" />
-      <workItem from="1567826606466" duration="12431000" />
+      <workItem from="1567826606466" duration="12852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18129000" />
+    <option name="totallyTimeSpent" value="18550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -492,6 +493,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/request/AlipayTradeAppPayRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AopClient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2180">
@@ -504,16 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AlipayClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/request/AlipayTradeAppPayRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="418">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
