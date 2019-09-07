@@ -10,6 +10,7 @@ require 'vendor/autoload.php';
 //实例化对象
 date_default_timezone_set("PRC");
 $aop = new alipay\AlipayClient();
+
 $aop->gatewayUrl = "https://openapi.alipay.com/gateway.do";
 $aop->appId = "appid";
 $aop->rsaPrivateKey = "用户私钥";
