@@ -28,4 +28,13 @@ class AlipayClient extends  AopClient {
 		return $response;
 	}
 
+	public function refundOrder($data){
+		$this->signType = "RSA2";
+		$request = new request\AlipayTradeRefundRequest();
+		$bizcontent=json_encode($data,JSON_UNESCAPED_UNICODE);
+		$request->setBizContent($bizcontent);
+		$response = $this->execute($request);
+		var_dump($response);die();
+	}
+
 }
