@@ -34,7 +34,7 @@ class AlipayClient extends  AopClient {
 		$bizcontent=json_encode($data,JSON_UNESCAPED_UNICODE);
 		$request->setBizContent($bizcontent);
 		$response = $this->execute($request);
-		var_dump($response);die();
+		return $response;
 	}
 
 }
