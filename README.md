@@ -60,7 +60,7 @@ $data["product_code"]="QUICK_MSECURITY_PAY";
 $result=$app_client->appPay($data,$notifyUrl);
 ```
 
-> `Note` 如需要自定义data参数 请查看支付宝官方文档 https://docs.open.alipay.com/api_1/alipay.trade.app.pay。
+> `Note` 如需要自定义data参数 请查看支付宝官方文档 https://docs.open.alipay.com/api_1/alipay.trade.app.pay
 > `Note` 将$result传给手机端唤起支付。
 
 - **回调参数验签**
@@ -86,7 +86,7 @@ $result=$app_client->refundOrder($data);
 
 > `Note` 退款是否成功对$result进行判断。
 
-> `Note` 所有方法错误码请以官方错误码为准 https://docs.open.alipay.com/api_1/alipay.trade.app.pay。
+> `Note` 所有方法错误码请以官方错误码为准 https://docs.open.alipay.com/api_1/alipay.trade.app.pay
 
 
 
