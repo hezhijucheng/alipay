@@ -45,7 +45,8 @@ $rsaPrivateKey = "用户私钥";
 $alipayrsaPublicKey="支付宝公钥";
 
 //支付回调地址
-$notifyUrl="https://www.baidu.com"
+$notifyUrl="https://www.baidu.com";
+```
 
 - **app唤起支付**
 
