@@ -14,7 +14,7 @@ alipay采用composer进行安装，要使用alipay功能，只需要在composer.
 ```json
 {
   "require": {
-    "jucheng/alipay": "1.*"
+    "juchengit/alipay": "1.*"
   }
 }
 ```
